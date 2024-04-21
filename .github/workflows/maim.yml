@@ -27,7 +27,7 @@ jobs:
         run: npm run test
   Build:
     needs: [test]
-    runs-on: widows 10
+    runs-on: windows-latest
     steps:
       - name: checkout
         uses: actions/checkout@v4
