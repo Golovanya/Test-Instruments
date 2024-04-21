@@ -1,0 +1,40 @@
+name: CiCd
+
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: Install deps
+        run: npm ci
+      - name: Lint
+        run: npm run lint
+  test:
+    needs: [lint]
+    strategy:
+      matrix:
+        version: [18,20]
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{matrix.version}}
+      - name: Install deps
+        run: npm ci
+      - name: Test
+        run: npm run test
+  Build:
+    needs: [test]
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: Install deps
+        run: npm ci
+      - name: Build
+        run: npm run build          
