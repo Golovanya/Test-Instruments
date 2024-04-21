@@ -22,7 +22,7 @@ const instruments: {
       name: "JEST",
       description:
         "Jest — это восхитительный фреймворк для тестирования JavaScript с акцентом на простоту.Работает с проектами, использующими Babel, TypeScript, Node, React, Angular, Vue и многое другое!",
-      image: "/src/assets/images/jest-logo-png-transparent.png",
+      image: "/images/jest-logo-png-transparent.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -76,7 +76,7 @@ const instruments: {
       id: 5,
       name: "Jasmine",
       description: "Description for product 2 (type 1)",
-      image: "/src/assets/images/jasmine.png",
+      image: "./src/assets/images/jasmine.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -103,7 +103,7 @@ const instruments: {
       id: 3,
       name: "Qunit",
       description: "Description for product 2 (type 1)",
-      image: "/src/assets/images/qunit.png",
+      image: "./images/qunit.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
