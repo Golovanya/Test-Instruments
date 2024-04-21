@@ -49,7 +49,7 @@ const instruments: {
       id: 2,
       name: "Mocha",
       description: "Description for product 2 (type 1)",
-      image: "/src/assets/images/Mocha_logo.svg.png",
+      image: "src/assets/images/Mocha_logo.svg.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
