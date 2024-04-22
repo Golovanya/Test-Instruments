@@ -49,7 +49,7 @@ const instruments: {
       id: 2,
       name: "Mocha",
       description: "Description for product 2 (type 1)",
-      image: "../assets/images/Mocha_logo.svg.png",
+      image: "/images/Mocha_logo.svg.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -76,7 +76,7 @@ const instruments: {
       id: 5,
       name: "Jasmine",
       description: "Description for product 2 (type 1)",
-      image: "./src/assets/images/jasmine.png",
+      image: "./images/jasmine.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -157,7 +157,7 @@ const instruments: {
       id: 6,
       name: "AVA",
       description: "Description for product 2 (type 1)",
-      image: "/src/assets/images/ava.png",
+      image: "/ava.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -187,7 +187,7 @@ const instruments: {
       id: 1,
       name: "Playwright",
       description: "Description for product 3 (type 2)",
-      image: "/src/assets/images/playwright.png",
+      image: "./ava.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
