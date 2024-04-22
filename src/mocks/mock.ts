@@ -22,7 +22,7 @@ const instruments: {
       name: "JEST",
       description:
         "Jest — это восхитительный фреймворк для тестирования JavaScript с акцентом на простоту.Работает с проектами, использующими Babel, TypeScript, Node, React, Angular, Vue и многое другое!",
-      image: "/images/jest-logo-png-transparent.png",
+      image: "./assets/images/jest.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -49,7 +49,7 @@ const instruments: {
       id: 2,
       name: "Mocha",
       description: "Description for product 2 (type 1)",
-      image: "src/assets/images/Mocha_logo.svg.png",
+      image: "../assets/images/Mocha_logo.svg.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
