@@ -13,7 +13,7 @@ function Integration() {
             <Button label="Документация" />
           </a>
         </div>
-        <img className="" src="/src/assets/images/testing-libary.png" />
+        <img className="" src="/testing-libary.png" />
       </div>
 
       <Text as="p" lineHeight="m">

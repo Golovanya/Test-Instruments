@@ -22,7 +22,7 @@ const instruments: {
       name: "JEST",
       description:
         "Jest — это восхитительный фреймворк для тестирования JavaScript с акцентом на простоту.Работает с проектами, использующими Babel, TypeScript, Node, React, Angular, Vue и многое другое!",
-      image: "./assets/images/jest.png",
+      image: "/jest.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -49,7 +49,7 @@ const instruments: {
       id: 2,
       name: "Mocha",
       description: "Description for product 2 (type 1)",
-      image: "/images/Mocha_logo.svg.png",
+      image: "/Mocha_logo.svg.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -76,7 +76,7 @@ const instruments: {
       id: 5,
       name: "Jasmine",
       description: "Description for product 2 (type 1)",
-      image: "./images/jasmine.png",
+      image: "/jasmine.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -103,7 +103,7 @@ const instruments: {
       id: 3,
       name: "Qunit",
       description: "Description for product 2 (type 1)",
-      image: "./images/qunit.png",
+      image: "/qunit.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -130,7 +130,7 @@ const instruments: {
       id: 4,
       name: "Node-tap",
       description: "Description for product 2 (type 1)",
-      image: "/src/assets/images/node-tap.png",
+      image: "/node-tap.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -187,7 +187,7 @@ const instruments: {
       id: 1,
       name: "Playwright",
       description: "Description for product 3 (type 2)",
-      image: "./ava.png",
+      image: "/playwright.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -231,7 +231,7 @@ const instruments: {
       id: 2,
       name: "Puppeteer",
       description: "Description for product 4 (type 2)",
-      image: "/src/assets/images/puppeteer.png",
+      image: "/puppeteer.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -274,7 +274,7 @@ const instruments: {
       id: 3,
       name: "Cypress",
       description: "Description for product 4 (type 2)",
-      image: "/src/assets/images/cypress.png",
+      image: "/cypress.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -317,7 +317,7 @@ const instruments: {
       id: 4,
       name: "Seleium",
       description: "Description for product 4 (type 2)",
-      image: "/src/assets/images/selenium.png",
+      image: "/selenium.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
@@ -360,7 +360,7 @@ const instruments: {
       id: 5,
       name: "Test-cafe",
       description: "Description for product 4 (type 2)",
-      image: "/src/assets/images/testcafe.png",
+      image: "/testcafe.png",
       popularСriterions: [
         "Популярность (GitHub stars/Stack Overflow tags)",
         "Разработчик",
