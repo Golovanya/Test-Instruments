@@ -27,6 +27,5 @@ describe("CorrectMenuVisible", () => {
     const menu = screen.getByRole("menu");
     expect(menu).toHaveTextContent('МодульноеИнтеграционноеСквозноеПрочие');
     
-    // expect(menu).not.toBeInTheDocument();
   });
 });   
