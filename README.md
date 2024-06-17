@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Проект для дипломной работы: "Инструменты тестирования - тестовый стенд на веб-платформе"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## В данной проекте отображены:
+* Страницы  с популярными инструментами тестирования каждого уровня пирамиды тестирования.
+* Страница с дополнительными инструментами и библиотеками тестирования приложений на языке JavaScript.
+* Страница каждого инструмента содержит: ссылку на документацию, краткое описание, пример реализации и результаты сравнительного анализа.
 
-## Expanding the ESLint configuration
+### Реализовано на:
+* React, TypeScript, ReactRouter
+* Consta UI
+* CI/CD: Github Actions, Docker
+* Testing: React-testing-libary, Vitest
+* Deploy: Vercel
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[Реализация проекта](https://test-instruments.vercel.app/)
